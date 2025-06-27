@@ -23,6 +23,7 @@ import { NavDocuments } from "@/components/nav-documents"
 import { NavMain } from "@/components/nav-main"
 import { NavSecondary } from "@/components/nav-secondary"
 import { NavUser } from "@/components/nav-user"
+import  pfp  from '../public/pfp.png'
 import {
   Sidebar,
   SidebarContent,
@@ -35,9 +36,9 @@ import {
 
 const data = {
   user: {
-    name: "shadcn",
-    email: "m@example.com",
-    avatar: "/avatars/shadcn.jpg",
+    name: "Rakesh",
+    email: "rakeshjhanda9958@gmail.com",
+    avatar: "/pfp.png",
   },
   navMain: [
     {

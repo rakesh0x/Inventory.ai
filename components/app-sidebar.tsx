@@ -57,7 +57,7 @@ const data = {
       icon: IconChartBar,
     },
     {
-      title: "Projects",
+      title: "Saved Inventory",
       url: "#",
       icon: IconFolder,
     },
@@ -134,17 +134,17 @@ const data = {
   ],
   documents: [
     {
-      name: "Data Library",
+      name: "Assign new Team",
       url: "#",
       icon: IconDatabase,
     },
     {
-      name: "Reports",
+      name: "Team News",
       url: "#",
       icon: IconReport,
     },
     {
-      name: "Word Assistant",
+      name: "Inventory.AI",
       url: "#",
       icon: IconFileWord,
     },

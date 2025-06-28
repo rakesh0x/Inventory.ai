@@ -12,58 +12,58 @@ import {
 const TeamNames = [
   {
     SerialNo: "01",
-    Names: "Paid",
-    totalAmount: "$250.00",
-    paymentMethod: "Credit Card",
+    Names: "Arjun Mehta",
+    Contact: "+91 9758682785",
+    Email: "arjun123@gmail.com",
   },
   {
     SerialNo: "02",
-    Names: "Pending",
-    totalAmount: "$150.00",
-    paymentMethod: "PayPal",
+    Names: "Priya Sharma",
+    Contact: "+91 8765987676",
+    Email: "priya123@gmail.com",
   },
   {
     SerialNo: "03",
-    Names: "Unpaid",
-    totalAmount: "$350.00",
-    paymentMethod: "Bank Transfer",
+    Names: "Ravi Kumar",
+    Contact: "+91 7809652546",
+    Email: "ravi123@gmail.com",
   },
   {
     SerialNo: "04",
-    Names: "Paid",
-    totalAmount: "$450.00",
-    paymentMethod: "Credit Card",
+    Names: "Neha Verma",
+    Contact: "+91 9087987898",
+    Email: "neha123@gmail.com",
   },
   {
     SerialNo: "05",
-    Names: "Paid",
-    totalAmount: "$550.00",
-    paymentMethod: "PayPal",
+    Names: "Vikas Patel",
+    Contact: "+91 9691298512",
+    Email: "vikas123@gmail.com",
   },
   {
     SerialNo: "06",
-    Names: "Pending",
-    totalAmount: "$200.00",
-    paymentMethod: "Bank Transfer",
+    Names: "Sunita Joshi",
+    Contact: "+91 9075454681",
+    Email: "sunita123@gmail.com",
   },
   {
     SerialNo: "07",
-    Names: "Unpaid",
-    totalAmount: "$300.00",
-    paymentMethod: "Credit Card",
+    Names: "Amit Singh",
+    Contact: "+91 6290572434",
+    Email: "amit123@gmail.com",
   },
 ]
 
 export default function TableDemo() {
   return (
     <Table>
-      <TableCaption>A list of your recent invoices.</TableCaption>
+      <TableCaption>A list of your recent.</TableCaption>
       <TableHeader>
         <TableRow>
           <TableHead className="w-[100px]">S.No</TableHead>
-          <TableHead>Name of Assignee</TableHead>
-          <TableHead>Method</TableHead>
-          <TableHead className="text-right">Amount</TableHead>
+          <TableHead>Name of Assignees</TableHead>
+          <TableHead>Email ID</TableHead>
+          <TableHead className="text-right">Contact No</TableHead>
         </TableRow>
       </TableHeader>
       <TableBody>
@@ -71,8 +71,8 @@ export default function TableDemo() {
           <TableRow key={TeamNames.SerialNo}>
             <TableCell className="font-medium">{TeamNames.SerialNo}</TableCell>
             <TableCell>{TeamNames.Names}</TableCell>
-            <TableCell>{TeamNames.paymentMethod}</TableCell>
-            <TableCell className="text-right">{TeamNames.totalAmount}</TableCell>
+            <TableCell>{TeamNames.Email}</TableCell>
+            <TableCell className="text-right">{TeamNames.Contact}</TableCell>
           </TableRow>
         ))}
       </TableBody>

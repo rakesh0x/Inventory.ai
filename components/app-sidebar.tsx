@@ -63,7 +63,7 @@ const data = {
     },
     {
       title: "Team",
-      url: "/Team",
+      url: "/team",
       icon: IconUsers,
     },
   ],

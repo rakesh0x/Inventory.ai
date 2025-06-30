@@ -1,5 +1,5 @@
 
-import { PrismaClient } from "../lib/generated/prisma";
+import { PrismaClient } from "../lib/generated/prisma/client";
 import Data from '../app/dashboard/data.json';
 
 const prisma = new PrismaClient();

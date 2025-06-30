@@ -33,16 +33,16 @@ async function main() {
         }
       });
 
-      console.log(`✅ Created inventory item: ${item.header}`);
+      console.log(` Created inventory item: ${item.header}`);
     } catch (error) {
-      console.error(`❌ Error creating item ${item.header}:`, error);
+      console.error(` Error creating item ${item.header}:`, error);
     }
   }
 }
 
 main()
   .catch(e => {
-    console.error('❌ Script error:', e);
+    console.error('Script error:', e);
     process.exit(1);
   })
   .finally(async () => {

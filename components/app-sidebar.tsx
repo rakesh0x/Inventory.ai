@@ -57,8 +57,8 @@ const data = {
       icon: IconChartBar,
     },
     {
-      title: "Saved Inventory",
-      url: "#",
+      title: "Recent Transactions",
+      url: "/Transactions",
       icon: IconFolder,
     },
     {
